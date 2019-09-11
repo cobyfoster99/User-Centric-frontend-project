@@ -1,0 +1,36 @@
+/* ------------------------------------------- Typography */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span{
+    font-family: "poppins", sans-serif;
+    margin: 0;
+}
+
+.h1 {
+    color: #475D7B;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.h2 {
+    color: #475D7B;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.p {
+    color: #475D7B;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* -------------------------------------------- Header */
+
+/* Footer */
