@@ -13,7 +13,7 @@ span {
     color: #475D7B;
 }
 
-/* -------------------------------------------- Colours */
+
 
 /* -------------------------------------------- Header */
 
@@ -38,9 +38,11 @@ header {
     padding-bottom: 40px;
     text-align: center;
 }
+
 .list-inline-item {
     padding-bottom: 10px;
 }
+
 .menucontainer {
     font-size: 0px;
     text-decoration: none;
@@ -69,6 +71,151 @@ header {
 .menu-item {
     margin-bottom: 10px;
 }
+
+/* -------------------------------------------- Media Queries - Header */
+
+@media only screen and (max-width: 1920px) and (min-width: 1220px) {
+    header {
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 768px) {
+    .menuitem {
+        padding-bottom: 10px;
+    }
+}
+
+
+
+
+/* -------------------------------------------- Banner Image Global */
+
+.banner-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* -------------------------------------------- SDW Catchphrase Global */
+
+.catchphrase {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 75px;
+    padding-top: 75px;
+}
+
+.header-h3 {
+    text-align: center;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+/* -------------------------------------------- Home-page About */
+
+.about-section {
+    display: block;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.aligned-border {
+    padding: 20px;
+}
+
+.about-h3 {
+    padding-top: 75px;
+    line-height: 35pt;
+    letter-spacing: 1.5px;
+}
+
+.about-p {
+    padding-top: 20px;
+    padding-bottom: 75px;
+    line-height: 35pt;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+
+.container-about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+/* -------------------------------------------- Media Queries - Home-page-about */
+
+@media only screen and (max-width: 1920px) and (min-width: 1200px) {
+    .container-about {
+        margin-right: 0;
+        margin-left: 10%;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1200px) {
+    .about-section {
+        border-radius: 25px 0px 0px 25px;
+    }
+}
+
+
+@media only screen and (max-width: 1920px) and (min-width: 1200px) {
+    .about-p,
+    .about-h3 {
+
+        padding-left: 80px;
+
+    }
+}
+
+@media only screen and (max-width: 1220px) and (min-width: 320px) {
+    .about-p,
+    .about-h3 {
+
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+
+    }
+}
+
+@media only screen and (max-width: 1220px) and (min-width: 320px) {
+    .about-p {
+        padding-bottom: 50px;
+        padding-top: 0px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1220px) and (min-width: 320px) {
+    .about-h3 {
+        padding-top: 50px;
+    }
+}
+
+
+
+/* -------------------------------------------- Media Queries - Catchphrase Global */
+
+@media only screen and (max-width: 1920px) and (min-width: 768px) {
+    .header-h3 {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+}
+
+
+
+
 
 
 /* -------------------------------------------- Footer */
@@ -108,24 +255,6 @@ footer {
     color: #475D7B;
 }
 
-
-
-
-
-/* -------------------------------------------- Media Queries - Header */
-
-@media only screen and (max-width: 1920px) and (min-width: 1220px) {
-    header {
-        margin-left: 150px;
-    }
-}
-
-@media only screen and (max-width: 1440px) and (min-width: 768px) {
-    .menuitem {
-        padding-bottom: 10px;
-    }
-}
-
 /* -------------------------------------------- Media Queries - Footer */
 
 @media only screen and (max-width: 1920px) and (min-width: 1220px) {
@@ -160,4 +289,81 @@ footer {
     .footer-p {
         font-size: 14px;
     }
+}
+
+
+
+
+
+/* -------------------------------------------- Portfolio Section - Homepage*/
+
+.container-porfolio {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 100px;
+}
+
+.portfolio-title {
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 300px) {
+    .portfolio-title {
+        padding-left: 0px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+.skp-image {
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 300px) {
+    .folio-image {
+        max-width: 100%;
+        width: auto;
+        min-height: auto;
+        vertical-align: top;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 300px) {
+    .container-portfolio {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.portfolio-item-small {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.folio-image {
+    vertical-align: top;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.folio-image-right {
+    vertical-align: top;
+    float:left;
+    text-align: right;
+}
+
+.portfolio-skp {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1200px) {
+.portfolio-item-large {
+    margin: 0;
+}
 }
