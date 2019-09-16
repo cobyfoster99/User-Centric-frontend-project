@@ -34,7 +34,7 @@ header {
 
 @media only screen and (max-width: 1920px) and (min-width: 1220px) {
     .nav-center {
-        margin-left: 300px;
+        margin-left: 220px;
         margin-right: auto;
     }
 }
