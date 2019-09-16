@@ -302,6 +302,7 @@ footer {
     margin-right: auto;
     width: 80%;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .portfolio-title {
@@ -324,14 +325,6 @@ footer {
     display: inline-block;
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 300px) {
-    .folio-image {
-        max-width: 100%;
-        width: auto;
-        min-height: auto;
-        vertical-align: top;
-    }
-}
 
 @media only screen and (max-width: 1200px) and (min-width: 300px) {
     .container-portfolio {
@@ -340,20 +333,19 @@ footer {
     }
 }
 
-.portfolio-item-small {
-    display: inline-block;
-    vertical-align: top;
-}
-
 .folio-image {
+    max-width: 100%;
+    width: auto;
+    min-height: auto;
     vertical-align: top;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 25px;
 }
 
 .folio-image-right {
     vertical-align: top;
-    float:left;
+    float: left;
     text-align: right;
 }
 
@@ -363,7 +355,69 @@ footer {
 }
 
 @media only screen and (max-width: 1920px) and (min-width: 1200px) {
-.portfolio-item-large {
-    margin: 0;
+    .portfolio-item-large {
+        margin: 0;
+    }
 }
+
+.padded-image {
+    padding-bottom: 0px;
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1200px) {
+    .left-Featured {
+        text-align: left;
+        padding-left: 80px;
+    }
+
+}
+
+.left-Featured {
+    padding-bottom: 50px;
+}
+
+
+/* -------------------------------------------- Contact Section - Homepage*/
+.container-contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-bottom: 100px;
+}
+
+.full-name {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border:none;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+}
+
+::-webkit-input-placeholder {
+color: #475D7B;
+padding-left: 20px;
+}
+
+
+.dicuss-idea {
+        margin-top: 20px;
+    width: 100%;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border:none;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+}
+
+.submit-button {
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 0;
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+    
 }
