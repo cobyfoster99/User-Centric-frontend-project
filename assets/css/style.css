@@ -103,7 +103,6 @@ header {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 75px;
     padding-top: 75px;
 }
 
@@ -120,6 +119,7 @@ header {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
     border-radius: 25px;
     margin-bottom: 50px;
+    margin-top: 100px;
 }
 
 .aligned-border {
@@ -419,4 +419,63 @@ footer {
     font-family: "poppins", sans-serif;
     font-size: 16px;
 
+}
+
+/* -------------------------------------------- Meet the Team - About Page*/
+
+.meet-the-team {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meet-the-team-box {
+    margin-top: 50px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.meet-the-team-img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1200px) {
+    .meet-the-team-box {
+        max-width: 33.33%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+    .meet-the-team-box {
+        max-width: 45%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.meet-the-team-h4 {
+    padding: 30px 0px 0px 20px;
+    font-style: italic;
+}
+
+.meet-the-team-h5 {
+    padding: 30px 30px 30px 20px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.bottom-box-row {
+    padding-bottom: 50px;
+}
+
+.padding-100 {
+    padding-top: 100px;
 }
