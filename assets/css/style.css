@@ -479,3 +479,61 @@ footer {
 .padding-100 {
     padding-top: 100px;
 }
+
+
+/* -------------------------------------------- Contact Page*/
+
+.contact-page-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form-contact {
+    width: 60%;
+    padding-left: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: inline-block;
+}
+
+.contact-info-contact {
+    padding-left: 100px;
+    padding-top: 100px;
+    width: 30%;
+    display: inline-block;
+}
+
+.contact-info-p {
+    padding-top: 20px;
+}
+
+.icon {
+    padding-left: 10px;
+    font-size: 32pt;
+    color: #475D7B;
+    border-radius: 50%
+}
+
+.home-contact-sub {
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 786px) and (min-width: 324px) {
+    .contact-form-contact {
+        width: 100%;
+        padding-left: 10px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 786px) and (min-width: 324px) {.contact-info-contact {
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: inline-block;
+}
+}
