@@ -30,20 +30,18 @@ Here is a list of the client’s desired features
 Within my designs, I have been able to add all of this functionality. 
 
 ## Testing 
-
+I have tested this site using all web browsers and devices. 
 
 ## Deployment
-
+The files have been commited and deployed to GitHub pages.
 ## Technologies Used
-To develop this project I plan on using the following languages and external libraries/external sources;
+To develop this project I am using the following languages and external libraries/external sources;
 
 - HTML5 (Hypertext Markup Language)
 - CSS3 (Cascading Style Sheets)
 - Google Fonts
 - Font Awesome (Icon Library)
 - Bootstrap (CSS Element Library)
-
-
 
 ## Credits 
 
