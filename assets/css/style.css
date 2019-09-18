@@ -32,6 +32,20 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
+@media only screen and (max-width: 1920px) and (min-width: 1220px) {
+    .nav-center {
+        margin-left: 220px;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1220px) {
+    nav {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 .navbar-light .navbar-nav .nav-link {
     color: #475D7B;
@@ -61,32 +75,6 @@ header {
 }
 
 
-@media only screen and (max-width: 1920px) and (min-width: 1220px) {
-    .nav-center {
-        margin-left: 220px;
-        margin-right: auto;
-    }
-}
-
-@media only screen and (max-width: 1920px) and (min-width: 1220px) {
-    nav {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-/* -------------------------------------------- Media Queries - Header */
-
-@media only screen and (max-width: 1440px) and (min-width: 768px) {
-    .menuitem {
-        padding-bottom: 10px;
-    }
-}
-
-
-
-
 /* -------------------------------------------- Banner Image Global */
 
 .banner-image {
@@ -113,6 +101,17 @@ header {
     display: inline-block;
     padding-left: 10px;
 }
+
+/* -------------------------------------------- Media Queries - Catchphrase Global */
+
+@media only screen and (max-width: 1920px) and (min-width: 768px) {
+    .header-h3 {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+}
+
+
 
 /* -------------------------------------------- Home-page About */
 
@@ -199,19 +198,6 @@ header {
         padding-top: 50px;
     }
 }
-
-
-
-/* -------------------------------------------- Media Queries - Catchphrase Global */
-
-@media only screen and (max-width: 1920px) and (min-width: 768px) {
-    .header-h3 {
-        padding-left: 75px;
-        padding-right: 75px;
-    }
-}
-
-
 
 
 
@@ -314,13 +300,6 @@ footer {
         text-align: center;
         padding-bottom: 20px;
     }
-}
-
-.skp-image {
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    display: inline-block;
 }
 
 
