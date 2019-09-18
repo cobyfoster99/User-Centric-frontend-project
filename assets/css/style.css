@@ -168,7 +168,7 @@ header {
 @media only screen and (max-width: 1920px) and (min-width: 1200px) {
     .about-p,
     .about-h3 {
-
+        padding-right: 200px;
         padding-left: 80px;
 
     }
@@ -510,11 +510,12 @@ footer {
     }
 }
 
-@media only screen and (max-width: 786px) and (min-width: 324px) {.contact-info-contact {
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-bottom: 50px;
-    width: 100%;
-    display: inline-block;
-}
+@media only screen and (max-width: 786px) and (min-width: 324px) {
+    .contact-info-contact {
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 50px;
+        width: 100%;
+        display: inline-block;
+    }
 }
