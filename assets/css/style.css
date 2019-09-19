@@ -15,7 +15,7 @@ span {
 
 
 
-/* -------------------------------------------- Header */
+/* -------------------------------------------- Global Header */
 
 header {
     background-color: #fffff;
@@ -32,20 +32,6 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
-@media only screen and (max-width: 1920px) and (min-width: 1220px) {
-    .nav-center {
-        margin-left: 220px;
-        margin-right: auto;
-    }
-}
-
-@media only screen and (max-width: 1920px) and (min-width: 1220px) {
-    nav {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
 
 .navbar-light .navbar-nav .nav-link {
     color: #475D7B;
@@ -53,7 +39,8 @@ header {
 
 .nav-link {
     font-size: 18px;
-    text-align: center;
+    text-align: right;
+    display: block;
     text-decoration: none;
     color: #475D7B;
     font-weight: 600;
@@ -74,8 +61,7 @@ header {
     color: #E18763;
 }
 
-
-/* -------------------------------------------- Banner Image Global */
+/* -------------------------------------------- Global Banner Image */
 
 .banner-image {
     display: block;
@@ -86,7 +72,7 @@ header {
     height: auto;
 }
 
-/* -------------------------------------------- SDW Catchphrase Global */
+/* -------------------------------------------- Global SDW Catchphrase */
 
 .catchphrase {
     display: block;
@@ -101,17 +87,6 @@ header {
     display: inline-block;
     padding-left: 10px;
 }
-
-/* -------------------------------------------- Media Queries - Catchphrase Global */
-
-@media only screen and (max-width: 1920px) and (min-width: 768px) {
-    .header-h3 {
-        padding-left: 75px;
-        padding-right: 75px;
-    }
-}
-
-
 
 /* -------------------------------------------- Home-page About */
 
@@ -147,138 +122,6 @@ header {
     width: 80%;
 }
 
-
-/* -------------------------------------------- Media Queries - Home-page-about */
-
-@media only screen and (max-width: 1920px) and (min-width: 1200px) {
-    .container-about {
-        margin-right: 0;
-        margin-left: 10%;
-        width: 90%;
-    }
-}
-
-@media only screen and (max-width: 1920px) and (min-width: 1200px) {
-    .about-section {
-        border-radius: 25px 0px 0px 25px;
-    }
-}
-
-
-@media only screen and (max-width: 1920px) and (min-width: 1200px) {
-    .about-p,
-    .about-h3 {
-        padding-right: 200px;
-        padding-left: 80px;
-
-    }
-}
-
-@media only screen and (max-width: 1220px) and (min-width: 320px) {
-    .about-p,
-    .about-h3 {
-
-        line-height: normal;
-        letter-spacing: normal;
-        text-align: center;
-
-    }
-}
-
-@media only screen and (max-width: 1220px) and (min-width: 320px) {
-    .about-p {
-        padding-bottom: 50px;
-        padding-top: 0px;
-        font-size: 16px;
-    }
-}
-
-@media only screen and (max-width: 1220px) and (min-width: 320px) {
-    .about-h3 {
-        padding-top: 50px;
-    }
-}
-
-
-
-
-/* -------------------------------------------- Footer */
-
-footer {
-    background-color: #f1f1f1;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.footer-section {
-    text-align: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-
-.footer-h2 {
-    padding-bottom: 20px;
-    font-size: 24px;
-    text-align: left;
-}
-
-.footer-p {
-    font-size: 16px;
-    line-height: 22pt;
-    text-align: left;
-}
-
-.footer-links {
-    text-decoration: none;
-    color: #475D7B;
-}
-
-.footer-links:hover {
-    text-decoration: none;
-    color: #475D7B;
-}
-
-/* -------------------------------------------- Media Queries - Footer */
-
-@media only screen and (max-width: 1920px) and (min-width: 1220px) {
-    .footer-location {
-        margin-left: 180px;
-    }
-}
-
-@media only screen and (max-width: 1920px) and (min-width: 1220px) {
-    footer {
-        padding-left: 250px;
-        padding-right: 250px;
-    }
-}
-
-@media only screen and (max-width: 1200px) and (min-width: 768px) {
-    footer {
-        padding-left: 50px;
-        padding-right: 0px;
-    }
-}
-
-@media only screen and (max-width: 1440px) and (min-width: 768px) {
-    .footer-sitemap,
-    .footer-location {
-        margin-left: 50px;
-        padding-right: 0px;
-    }
-}
-
-@media only screen and (max-width: 1200px) and (min-width: 386px) {
-    .footer-p {
-        font-size: 14px;
-    }
-}
-
-
-
-
-
 /* -------------------------------------------- Portfolio Section - Homepage*/
 
 .container-porfolio {
@@ -294,20 +137,9 @@ footer {
     padding-bottom: 50px;
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 300px) {
-    .portfolio-title {
-        padding-left: 0px;
-        text-align: center;
-        padding-bottom: 20px;
-    }
-}
-
-
-@media only screen and (max-width: 1200px) and (min-width: 300px) {
-    .container-portfolio {
-        width: 100%;
-        margin: 0;
-    }
+.left-Featured {
+    text-align: left;
+    padding-left: 80px;
 }
 
 .folio-image {
@@ -331,28 +163,14 @@ footer {
     margin-right: auto;
 }
 
-@media only screen and (max-width: 1920px) and (min-width: 1200px) {
-    .portfolio-item-large {
-        margin: 0;
-    }
-}
 
 .padded-image {
     padding-bottom: 0px;
 }
 
-@media only screen and (max-width: 1920px) and (min-width: 1200px) {
-    .left-Featured {
-        text-align: left;
-        padding-left: 80px;
-    }
-
-}
-
 .left-Featured {
     padding-bottom: 50px;
 }
-
 
 /* -------------------------------------------- Contact Section - Homepage*/
 
@@ -402,7 +220,7 @@ footer {
 
 }
 
-/* -------------------------------------------- Meet the Team - About Page*/
+/* -------------------------------------------- About Page*/
 
 .meet-the-team {
     width: 80%;
@@ -424,22 +242,6 @@ footer {
     max-width: 100%;
     height: auto;
 
-}
-
-@media only screen and (max-width: 1920px) and (min-width: 1200px) {
-    .meet-the-team-box {
-        max-width: 33.33%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media only screen and (max-width: 1200px) and (min-width: 768px) {
-    .meet-the-team-box {
-        max-width: 45%;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
 }
 
 .meet-the-team-h4 {
@@ -500,7 +302,164 @@ footer {
     padding-top: 50px;
 }
 
-@media only screen and (max-width: 786px) and (min-width: 324px) {
+
+
+/* -------------------------------------------- Footer */
+
+footer {
+    background-color: #f1f1f1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-section {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.footer-h2 {
+    padding-bottom: 20px;
+    font-size: 24px;
+    text-align: left;
+}
+
+.footer-p {
+    font-size: 16px;
+    line-height: 22pt;
+    text-align: left;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: #475D7B;
+}
+
+.footer-links:hover {
+    text-decoration: none;
+    color: #475D7B;
+}
+
+
+
+/* -------------------------------------------- Media Queries - Global Header*/
+
+@media only screen and (max-width: 1920px) and (min-width: 1200px) {
+    .nav-center {
+        float: right;
+    }
+    nav {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1920px) {
+    .float-right {
+        padding-left: 380px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1900px) and (min-width: 1000px) {
+    .float-right {
+        padding-left: 150px;
+        width: 100%;
+    }
+}
+
+/* -------------------------------------------- Media Queries - Catchphrase Global */
+
+@media only screen and (max-width: 1920px) and (min-width: 1200px) {
+    .header-h3 {
+        padding-left: 20px;
+        padding-right: 75px;
+    }
+}
+
+
+/* -------------------------------------------- Media Queries - Home-page-about */
+
+@media only screen and (max-width: 1920px) and (min-width: 1200px) {
+    .container-about {
+        margin-right: 0;
+        margin-left: 10%;
+        width: 90%;
+    }
+    .about-section {
+        border-radius: 25px 0px 0px 25px;
+    }
+    .about-p,
+    .about-h3 {
+        padding-right: 200px;
+        padding-left: 80px;
+
+    }
+}
+
+
+@media only screen and (max-width: 1200px) and (min-width: 300px) {
+    .about-p,
+    .about-h3 {
+
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+
+    }
+    .about-p {
+        padding-bottom: 50px;
+        padding-top: 0px;
+        font-size: 16px;
+    }
+    .about-h3 {
+        padding-top: 50px;
+    }
+}
+
+/* -------------------------------------------- Media Queries - Home-page-portfolio */
+
+@media only screen and (max-width: 1920px) and (min-width: 1200px) {
+    .portfolio-item-large {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 300px) {
+    .left-Featured {
+        padding-left: 0px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .container-portfolio {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* -------------------------------------------- Media Queries - about-page-Meet-the-team */
+
+@media only screen and (max-width: 1920px) and (min-width: 1200px) {
+    .meet-the-team-box {
+        max-width: 33.33%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+    .meet-the-team-box {
+        max-width: 45%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+/* -------------------------------------------- Media Queries - Contact-page */
+
+@media only screen and (max-width: 786px) and (min-width: 300px) {
     .contact-form-contact {
         width: 100%;
         padding-left: 10px;
@@ -510,12 +469,47 @@ footer {
     }
 }
 
-@media only screen and (max-width: 786px) and (min-width: 324px) {
+@media only screen and (max-width: 786px) and (min-width: 300px) {
     .contact-info-contact {
         padding-left: 0px;
         padding-top: 0px;
         padding-bottom: 50px;
         width: 100%;
         display: inline-block;
+    }
+}
+
+
+/* -------------------------------------------- Media Queries - Footer */
+
+@media only screen and (max-width: 1920px) and (min-width: 1200px) {
+    .footer-location {
+        margin-left: 180px;
+    }
+
+    footer {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+    footer {
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+    .footer-sitemap,
+    .footer-location {
+        margin-left: 50px;
+        padding-right: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) and (min-width: 300px) {
+    .footer-p {
+        font-size: 14px;
     }
 }

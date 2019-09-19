@@ -12,12 +12,13 @@ The website will be built for Simple Design Works Ltd | Product Design Consultan
 
 ## Planning
 To start the project in the most efficient way, I decided to have a face-to-face meeting with the client to discuss their needs. During this meeting I sketched a few basic layouts based on their needs. As the meeting went on I found that they were focusing on the design aspect of the website more importantly that overflowing the website advanced function. The client is a design consultancy with a good taste of clean and simple design. 
-
 After the initial meeting I went back to the drawing board and thought about the best ways to implement their desired features in a way that compliments their branding. The ultimate goal is a more inviting website that encourages the end user to get in touch about their project.
 
+I've used a scheduling and task assignment website called Trello. You can see my task board here - https://trello.com/b/FsDcKTKl/user-centric-frontend-dev
 ## Design 
 To start the design process, I created a basic layout sketch with all the features they need. Using this I will be able create the skeleton within a UX software “Adobe XD”. It’s important for me to focus on simplifying their current website, removing all the unnecessary “bloat” content that gets in the way when trying to find relevant content. 
 
+You can see my Wireframe designs that I created, they are in the media library folder- file name initial-wireframes.pdf
 After a day of wireframing, I have come up with a layout that works. I sent the layout to the client and they were over the moon with the new design. 
 
 ## Features
@@ -27,13 +28,20 @@ Here is a list of the client’s desired features
 -	Call to action on the home page as well as a separate contact form on the contact page. 
 -	Portfolio section on the home page
 -	Sitemap in the footer of the website
+
 Within my designs, I have been able to add all of this functionality. 
 
 ## Testing 
-I have tested this site using all web browsers and devices. 
+To test the website I decided to use my collegues. I gave each of them the task of going through the website testing links, buttons, responsive design and each browser (Safari, Google Chrome, Mozilla Firefox and Microsft Edge)
 
+
+Here's a detailed user stories - Ruth: "The website is now a lot cleaner and there is less bloat. In comparison to the current website, this new design really gets us ahead of our competitors and offers the user a sense of our UX capabilities. 
+
+The navigation is clear and easy to use, I admit that having a sitemap in the footer really helps from a UX point of view.
+
+The website is responsive and offers the same functionality on each browser."
 ## Deployment
-The files have been commited and deployed to GitHub pages.
+I have added the code to GitHub pages. The website and code is ready to be assessed.
 ## Technologies Used
 To develop this project I am using the following languages and external libraries/external sources;
 
@@ -42,6 +50,9 @@ To develop this project I am using the following languages and external librarie
 - Google Fonts
 - Font Awesome (Icon Library)
 - Bootstrap (CSS Element Library)
+
+
+
 
 ## Credits 
 
