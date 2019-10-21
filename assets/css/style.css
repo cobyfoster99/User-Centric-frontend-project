@@ -32,19 +32,16 @@ header {
 }
 
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav {
     color: #475D7B;
 }
 
-.nav-link:hover,
-.nav-active  {
-    color: #E18763;
-}
 
 
 .nav-link {
     font-size: 18px;
     text-align: right;
+    color: #475D7B;
     display: block;
     text-decoration: none;
     font-weight: 600;
@@ -53,6 +50,11 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
+.nav-active,
+.nav-link:hover
+ {
+    color: #E18763;
+}
 .nav-item {
     padding-left: 30px;
 }
