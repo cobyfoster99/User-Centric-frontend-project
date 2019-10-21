@@ -52,8 +52,6 @@ To develop this project I am using the following languages and external librarie
 - Bootstrap (CSS Element Library)
 
 
-
-
 ## Credits 
 
 ### Media (images and videos)

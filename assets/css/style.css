@@ -36,12 +36,17 @@ header {
     color: #475D7B;
 }
 
+.nav-link:hover,
+.nav-active  {
+    color: #E18763;
+}
+
+
 .nav-link {
     font-size: 18px;
     text-align: right;
     display: block;
     text-decoration: none;
-    color: #475D7B;
     font-weight: 600;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -52,13 +57,7 @@ header {
     padding-left: 30px;
 }
 
-.nav-link:hover {
-    color: #E18763;
-}
 
-.nav-active {
-    color: #E18763;
-}
 
 /* -------------------------------------------- Global Banner Image */
 
