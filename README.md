@@ -1,6 +1,6 @@
 # User Centric Frontend Development - Milestone Project
 
-The website will be built for Simple Design Works Ltd | Product Design Consultancy. I plan on building a responsive website with basic functionality using HTML and CSS. 
+The website will be built for Simple Design Works Ltd | Product Design Consultancy. I plan on building a responsive website with basic functionality using HTML and CSS. The client has requested that the code needs to be neat and maintainable in case someone else picks up on my code after I am finished. 
 
 ## Design Brief
 - The Website needs to be a simplified version of their current website - www.simpledesignworks.co.uk
@@ -18,8 +18,8 @@ I've used a scheduling and task assignment website called Trello. You can see my
 ## Design 
 To start the design process, I created a basic layout sketch with all the features they need. Using this I will be able create the skeleton within a UX software “Adobe XD”. It’s important for me to focus on simplifying their current website, removing all the unnecessary “bloat” content that gets in the way when trying to find relevant content. 
 
-You can see my Wireframe designs that I created, they are in the media library folder- file name initial-wireframes.pdf
-After a day of wireframing, I have come up with a layout that works. I sent the layout to the client and they were over the moon with the new design. 
+You can see my Wireframe designs that I created using THIS LINK - assets/media-library/initial-wireframes.pdf
+After a day of wireframing, I have come up with a layout that works. I then sent the layout to the client and they were over the moon with the new design. 
 
 ## Features
 Here is a list of the client’s desired features
@@ -36,12 +36,10 @@ To test the website I decided to use my collegues. I gave each of them the task 
 
 
 Here's a detailed user stories - Ruth: "The website is now a lot cleaner and there is less bloat. In comparison to the current website, this new design really gets us ahead of our competitors and offers the user a sense of our UX capabilities. 
-
 The navigation is clear and easy to use, I admit that having a sitemap in the footer really helps from a UX point of view.
-
 The website is responsive and offers the same functionality on each browser."
 ## Deployment
-I have added the code to GitHub pages. The website and code is ready to be assessed.
+I've desicided to deploy my code onto GitHub pages. I have chosen GitHb pages because it allows you to deploy your code and create repositories free to chage whilst keeping a great standard on performance. GiHub allows you to share code with other developers and in this instance, assesors.
 ## Technologies Used
 To develop this project I am using the following languages and external libraries/external sources;
 
@@ -57,5 +55,8 @@ To develop this project I am using the following languages and external librarie
 ### Media (images and videos)
 All media items were supplied by the client.
 
-### text
-text was supplied by the client.
+### Content
+Conent was supplied by the client. They managed photography and chose the most relevant images to use in all places within the website.
+
+## General Notes
+Meet the team section - About Page - I had to use duplicate images for two people's headshots. The client did not have any relevant images so advised on duplicated images to use as a placeholder until they have another photoshoot. 
